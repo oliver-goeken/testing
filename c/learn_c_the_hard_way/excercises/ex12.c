@@ -13,11 +13,15 @@ int main(int argc, char *argv[]){
   areas[3] = 123;
 
   printf("Areas: ");
-
   for(int i = 0; i < sizeof(areas) / sizeof(int); i ++){
     printf("%d ", areas[i]);
   }
+  printf("\n");
 
+  printf("Name: ");
+  for(int i = 0; i < sizeof(name) / sizeof(char); i ++){
+    printf("%c ", name[i]);
+  }
   printf("\n");
 
   printf("The size of of an int: %lu\n", sizeof(int));
