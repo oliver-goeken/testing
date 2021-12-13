@@ -14,6 +14,8 @@ struct Address {
   char email[MAX_DATA];
 };
 
+//testing
+
 struct Database {
   struct Address rows[MAX_ROWS];
 };
